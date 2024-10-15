@@ -26,7 +26,7 @@ body{
 
   .cartao__conteudo {
     background-color: var(--card-front-color);
-    text-aling: center;
+    text-align: center;
     height: 100%;
     transform-style: preserve-3d;
     transition: transform 300ms ease-in-out;
@@ -60,7 +60,7 @@ body{
   font-weight: 700;
 }
 
-.cartao:hover.cartao__conteudo {
+.cartao.active .cartao__conteudo {
   transform: rotateY(180deg);
 }
 
@@ -89,4 +89,22 @@ body{
     text-align: center;
     font-size: 0.6rem;
     margin-top: 0.5rem;
+  }
+
+  @media (max-width: 560px) {
+    body {
+      background: url('img/bg-mobile.webp');
+    }
+
+    .cartao {
+      flex: 1 0 calc(100% - 1rem);
+    }
+
+    .cartao_conteudo h3 {
+      font-size: 3vw;
+    }
+
+    .cartao_conteudo p {
+      font-size: 3.8vw;
+    }
   }

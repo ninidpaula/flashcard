@@ -19,7 +19,7 @@ criaCartao(
 criaCartao(
     'Nicolly',
     'Qual creme a Ni mais gosta de usar?',
-    'O da Hidramais com cheiro de morango'
+    'O da Hidramais com cheiro de frutas vermelhas'
 )
 
 criaCartao(
@@ -37,7 +37,7 @@ criaCartao(
 criaCartao(
     'Nicolly',
     'Qual o chocolate favorito da Ni?',
-    'Milka de amendoas'
+    'Pistache da cacau show'
 )
 
 criaCartao(
